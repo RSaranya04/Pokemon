@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: 'IIS Deployment Pool'  # Use the name of your deployment pool
+  name: 'IIS Deployment Pool'  # Ensure this matches your agent pool name
 
 steps:
 - task: ArchiveFiles@2
